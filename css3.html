@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset-"UTF-8">
+<title> CSS3 </title>
+
+<link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	
+	<div id="header">
+		<img src="media/header_4.png" width="780" height="100">
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li> <a href="index.html"> Main  </a> </li>
+			<li> <a href="introduce.html"> Introduce </a> </li>
+			<li> <a href="html5.html"> HTML5 </a> </li>
+			<li class="select"> <a href="css3.html"> CSS3 </a> </li>	
+			<li> <a href="javascript.html"> Javascript </a> </li>
+		</ul>
+	</div>
+
+
+	<div id="intro">
+
+		
+<h3> 홈페이지에 사용된 CSS3 source </h3>
+<hr>
+<details>
+	<summary> div 셀렉터에 사용되는 스타일 시트  </summary>
+	<pre>
+
+	div {
+		margin: 5px;
+		padding: 5px;
+		border: 1px solid #cccccc;
+		width: 800px;
+		text-align: center;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> pre 셀렉터에 사용되는 스타일 시트 </summary>
+	<pre>
+
+	pre {
+		border: 1px solid #cccccc;
+		font-size: 15px;
+		font-weight: bold;
+		width: 760px;
+		line-height: 25x;	
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> span 셀렉터에 사용되는 스타일 시트 </summary>
+	<pre>
+
+	span {
+		color: blue;
+		font-weight: bold;
+		text-shadow: 2px 2px 5px #FF8200;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> intro 박스에 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	#intro {
+		width: 780px;
+		text-align: left;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> header 박스에 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	#header {
+		width: 780px;
+		height: 100px;
+		line-height: 100px;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> nav 박스 및 메뉴바 구현을 위해 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	#nav {
+		width: 780px;
+	}
+
+	#nav ul  {
+		overflow: hidden;
+	}
+
+	#nav ul li {
+		border: 1px solid #cccccc;
+		width: 138px; height: 40px;
+		float: left;
+		list-style: none;
+		text-align: center;
+		line-height: 40px;
+	}
+
+	#nav ul li a{
+	    text-decoration:none;
+	    display: block;
+	    width: 138px;
+	    font-size: 15px;
+	    font-weight: bold;
+	    color: #505050;
+	}
+
+	#nav ul li a:hover{
+	    color:#e62e00;
+	    background-color:#ffe6cc;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> 선택된 메뉴를 알리는데 사용되는 class 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	.select {
+	    color:#e62e00;
+	    background-color:#ffe6cc;	
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> wrap 박스에 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	#wrap {
+		overflow: hidden;
+		width: 780px;
+
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> content 박스에 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	#content {
+		float: left;
+		width: 600px;
+
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> banner 박스에 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+
+	#banner {
+		float: left;
+		width: 135px;
+		height: 300x;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> 마우스 오버시 적용되는 가상 클래스 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	summary:hover {
+		background: yellowgreen;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> footer 박스에 사용되는 id 셀렉터 스타일 시트 </summary>
+	<pre>
+
+	#footer {
+		width: 780px;
+		line-height: 50px;
+	}
+	</pre>
+</details>
+
+<details>
+	<summary> 계산기 버튼, 디스플레이창 등에 사용되는 스타일 시트  </summary>
+	<pre>
+
+	input.btn{
+		width: 50px;
+		height: 40px;
+		margin: 5px;
+		font-size: 15pt;
+	}
+	.clr, .equal{
+		width: 112px;
+		height: 40px;
+		margin: 5px;
+		font-size: 15pt;
+	}
+	#disp{
+		width: 295px;
+		height: 50px;
+		margin: 5px;
+		border:3px solid #a0a0a0;
+		border-radius: 10px;
+		font-size: 30pt;
+		text-align: right;
+	}
+	</pre>
+</details>
+
+	</div>
+
+
+	<div id="footer">
+		Copyright 2021 JEGEUN
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset-"UTF-8">
+<title> 소개 </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+
+<script>
+	function show_over() {
+		document.getElementById("fig").src="media/jump.gif";
+	}
+	function show_on() {
+		document.getElementById("fig").src="media/selca.jpg";
+	}
+</script>
+</head>
+
+<body>
+	
+	<div id="header">
+		<img src="media/header_2.png" width="780" height="100">
+	</div>
+
+	<div id="nav">
+		<ul>
+			<li> <a href="index.html"> Main  </a> </li>
+			<li class="select"> <a href="introduce.html"> Introduce </a> </li>
+			<li> <a href="html5.html"> HTML5 </a> </li>
+			<li> <a href="css3.html"> CSS3 </a> </li>	
+			<li> <a href="javascript.html"> Javascript </a> </li>
+		</ul>
+	</div>
+
+	<div id="intro">
+	        <table border="0" align="center" cellspacing="20" style="border-radius: 15px; border:7px solid #a0a0a0;">
+		      <tr>
+		      	<td onmouseover="show_over()" onmouseout="show_on()"><img id="fig" width="200" height="355" src="media/selca.jpg"></td>
+		      	<td>
+		      	<h2 style="text-shadow: 4px 4px 10px seagreen; font-size: 25px;	font-weight: bold;"> 이번 과제는... </h2>	
+<p>&nbsp저는 <span>한국나노마이스터고등학교</span>에 근무하고 있는 교사 <span>육제근</span>입니다.<br>
+&nbsp지금은 <span>창원대학교 교육대학원</span>에서 <span>인공지능빅데이터융합교육</span>을 전공하고 있습니다.<br>
+&nbsp이번학기는 <span>데이터베이스특론</span>과 <span>웹프로그래밍특론</span>을 배웠습니다.<br> 웹프로그래밍특론 수업시간에는 <span>HTML5</span> + <span>CSS3</span> + <span>Javascrip</span>를 배웠습니다.<br>
+&nbsp마지막 과제로 배운내용을 토대로 홈페이지를 제작해 보는 것이었는데, 고민 끝에 <span>계산기</span>를 만들어 보기로 했습니다.<br>
+&nbsp하지만, 자바스크립트로 간단한 계산은 구현할 수 있었으나, 계산기답게 구현하는데는 아직까지 많은 부족함을 느끼게 되었습니다. 그래서 잘 짜여진 자바스크립트 소스를 참고하기로 했으나 그것도 완벽히 이해하는데는 어려움이 있어, 소스는 그대로 사용하되 저의 홈페이지에 잘 조합시켜보기로 했습니다.<br>
+&nbsp이번 과제를 하면서 <span>구조적인 홈페이지를 만드는 과정</span>을 알 수 있는 의미 있는 시간이었습니다.
+</p>
+		      	</td>
+	          </tr>
+	        </table>
+	</div>
+
+
+	<div id="footer">
+		Copyright 2021 JEGEUN
+	</div>
+</body>
+</html>

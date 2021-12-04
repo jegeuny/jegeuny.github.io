@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset-"UTF-8">
+<title> HTML5 </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="header">
+		<img src="media/header_3.png" width="780" height="100">
+	</div>
+	<div id="nav">
+		<ul>
+			<li> <a href="index.html"> Main  </a> </li>
+			<li> <a href="introduce.html"> Introduce </a> </li>
+			<li class="select"> <a href="html5.html"> HTML5 </a> </li>
+			<li> <a href="css3.html"> CSS3 </a> </li>	
+			<li> <a href="javascript.html"> Javascript </a> </li>
+		</ul>
+	</div>
+
+	<div id="intro">
+
+<h3> 홈페이지 tree 구조 및 Index.html source </h3>
+<hr>
+<details>
+	<summary> 홈페이지 tree 구조  </summary>
+		<img src="media/tree.png">
+</details>
+<details>
+	<summary> index.html 파일 소스 </summary>
+	<pre>
+<xmp>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset-"UTF-8">
+<title> 웹프로그램특론 프로젝트과제 </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="header">
+	<img src="media/header_1.png" width="780" height="100">
+</div>
+<div id="nav">
+	<ul>
+		<li class="select"> <a href="index.html"> Main  </a> </li>
+		<li> <a href="introduce.html"> Introduce </a> </li>
+		<li> <a href="html5.html"> HTML5 </a> </li>
+		<li> <a href="css3.html"> CSS3 </a> </li>	
+		<li> <a href="javascript.html"> Javascript </a> </li>
+	</ul>
+</div>
+
+<script src="calculator.js">
+</script>
+
+<div id="wrap">
+<div id="content">
+<div class="blur">CALCULATOR</div>
+<form name="calform">
+    <table border="0" align="center" cellspacing="0"
+     style="border-radius: 15px; border:20px solid #a0a0a0;">
+        <tr>
+            <td colspan="5"><input type="text" name="disp" id="disp" value="0"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" class="btn" onclick="but(7)"></td>
+            <td><input type="button" value="8" class="btn" onclick="but(8)"></td>
+            <td><input type="button" value="9" class="btn" onclick="but(9)"></td>
+            <td colspan="2"><input type="button" value="C" class="clr" onclick="c()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" class="btn" onclick="but(4)"></td>
+            <td><input type="button" value="5" class="btn" onclick="but(5)"></td>
+            <td><input type="button" value="6" class="btn" onclick="but(6)"></td>
+            <td><input type="button" value="/" class="btn" onclick="but('/')"></td>
+            <td><input type="button" value="%" class="btn" onclick="but('%')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" class="btn" onclick="but(1)"></td>
+            <td><input type="button" value="2" class="btn" onclick="but(2)"></td>
+            <td><input type="button" value="3" class="btn" onclick="but(3)"></td>
+            <td><input type="button" value="*" class="btn" onclick="but('*')"></td>
+            <td><input type="button" value="+" class="btn" onclick="but('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" class="btn" onclick="but(0)"></td>
+            <td><input type="button" value="." class="btn" onclick="but('.')"></td>
+            <td colspan="2"><input type="button" value="=" class="equal" onclick="total()"></td>
+            <td><input type="button" value="-" class="btn" onclick="but('-')"></td>
+        </tr>
+    </table>
+</form>
+<br>
+자료출처: <a href="https://cofs.tistory.com/209" target="_new">
+https://cofs.tistory.com/209 <a><br><br>
+</div>
+<div id="banner"> 
+ 배너모음<hr>
+  <div id="banner_box">
+   <a href="http://www.gne.go.kr/" target="_new">
+	 <img src="media/1.png" title="경상남도교육청" width="110" height="30">
+   </a>
+  </div>
+  <div id="banner_box">
+   <a href="https://www.changwon.ac.kr/" target="_new">
+	 <img src="media/2.png" title="창원대학교" width="110" height="30">
+   </a>
+  </div>
+  <div id="banner_box">
+	<a href="http://nano-h.gne.go.kr/jeonja-h/main.do" target="_new">
+	  <img src="media/3.png" title="한국나노마이스터고등학교" width="110" height="30">
+	</a>
+  </div>
+  <div id="banner_box">
+	<a href="https://www.gyeongnam.go.kr/intro.html" target="_new">
+	  <img src="media/4.jpg" title="경상남도" width="110" height="30">
+	</a>
+  </div>
+  <div id="banner_box">
+	<a href="https://iro.gne.go.kr/com/main/main.do" target="_new">
+	  <img src="media/5.png" title="안전아이로" width="110" height="30">
+	</a>
+  </div>
+  <div id="banner_box">
+	<a href="http://webzine.ssif.or.kr/" target="_new">
+	  <img src="media/6.jpg" title="학교안전웹진" width="110" height="30">
+	</a>
+  </div>
+  <div id="banner_box">
+	<a href="http://webprogramming.co.kr/" target="_new">
+	  <img src="media/6.png" title="웹 프로그래밍" width="110" height="30">
+	</a>
+  </div>
+  <div id="banner_box">
+	<a href="https://www.hifive.go.kr/index.jsp" target="_new">
+	  <img src="media/7.png" title="하이파이브" width="110" height="30">
+	</a>
+  </div>
+	<br>
+ </div>
+</div>
+
+	<div id="footer">
+		Copyright 2021 JEGEUN
+	</div>
+</body>
+</html>
+</xmp>
+</pre>
+</details>
+	</div>
+
+	<div id="footer">
+		Copyright 2021 JEGEUN
+	</div>
+</body>
+</html>
